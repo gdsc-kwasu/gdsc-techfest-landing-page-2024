@@ -13,7 +13,7 @@ html, body{
 body {
     background: url(/assets/hero-bg.svg);
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     font-family: "Angkor", serif;
     font-size: 14px;
@@ -45,6 +45,7 @@ header {
     width: 100%;
     height: 100%;
     color: #ffffff;
+    padding-bottom: 5%;
 }
 
 .main-heading {
@@ -139,6 +140,9 @@ header {
 }
 
 @media screen and (max-width:992px) { 
+    .hero-container {
+        padding-bottom: 5%;
+    }
     .main-heading {
         display: flex;
         font-size: 8rem;
@@ -230,12 +234,21 @@ header {
         background: #EB4336;
         font-size: 2rem;
         box-shadow: 5px 5px #FFF3CD;
-        
     }
-    
+    /* .info-heading-link {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        color: #FFF3CD;
+        text-align: center;
+    }     */
 }
 
 @media screen and (max-width:600px) { 
+    .hero-container {
+        padding-bottom: 4%;
+    }
     .main-heading {
         display: flex;
         font-size: 8rem;
@@ -245,23 +258,6 @@ header {
         margin-bottom: 5%;
         color: #FBBC04;
     }
-/* 
-    .logo {
-        display: inline-block;
-        position: absolute;
-        top: 4%;
-        left: 4%;
-        margin-bottom: 1%;
-        -webkit-filter: none;
-        filter: none;
-    }
-    
-
-    logo img{
-        width: 10px;
-        height: 5px;
-    } */
-
     .navbar {
         display: flex;
         flex-direction: row;
@@ -357,8 +353,16 @@ header {
         background: #EB4336;
         font-size: 1.5rem;
         box-shadow: 5px 5px #FFF3CD;
-        
     }
+    .info-heading-link {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+    }
+
     
 }
 
