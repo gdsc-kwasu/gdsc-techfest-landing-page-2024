@@ -160,16 +160,25 @@ header {
     100% {opacity:1;}
 }
 @keyframes slideinLeft {
-    0% { margin-left: -200%; }
+    /* 0% { margin-left: -200%; }
     20% { margin-left:-200%; }
     35% { margin-left:0px; }
-    100% { margin-left:0px; }
+    100% { margin-left:0px; } */
+    0% { transform: translateX(-200%); }
+    20% { transform: translateX(-200%); }
+    35% { transform: translateX(0); }
+    100% { transform: translateX(0); }
 }
 @keyframes slideinRight {
-    0% { margin-right: -200%; }
+    /* 0% { margin-right: -200%; }
     20% { margin-right:-200%; }
     35% { margin-right:0px; }
-    100% { margin-right:0px; }
+    100% { margin-right:0px; } */
+
+    0% { transform: translateX(200%); }
+    20% { transform: translateX(200%); }
+    35% { transform: translateX(0); }
+    100% { transform: translateX(0); }
 }
 @keyframes reveal {
     0% {opacity:0;}
