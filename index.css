@@ -128,29 +128,19 @@ header {
         font-size: 8rem;
         width: 100%;
         margin: 0;
-        /* flex-direction: row; */
-        /* justify-content: center; */
-        /* align-items: flex-end; */
         gap: 2%;    
         margin-bottom: 5%;
         color: #FABC05;
-        
-
     }
 
     /* FABC05 */
     .tech-fest {
         display: flex;
         flex-direction: column;
-        /* justify-content: flex-start;  */
         text-shadow: 8px 6px #EB4237;
-        /* justify-content: space-between; */
-        /* align-items: flex-end; */
-        /* height: 100%; */
         line-height: 8rem;
         padding: 0 0;
         margin: 0;
-        /* gap: -10%; */
     }
     .tech-fest span {
         display: inline-block;
@@ -170,9 +160,6 @@ header {
         height: max-content;
         padding: 1rem;
         background: #EB4336;
-        /* font-size: rem; */
-        /* font-weight: 400; */
-        /* margin-bottom: -2.5rem; */
     }
 
     .info-heading {
@@ -182,7 +169,6 @@ header {
         align-items: center;
         gap: 5%;
         width: 100%;
-        /* height: 100%;  */
         color: #FFFBEF;
         margin-top: 5%;
     }
@@ -191,12 +177,83 @@ header {
         display: flex;
         justify-content: center;
         height: 100%;
-        
         width: 40%;
         margin-top: 2%;
         margin-bottom: 2%;
         background: #EB4336;
         font-size: 2rem;
+        box-shadow: 5px 5px #FFF3CD;
+        
+    }
+    
+}
+
+@media screen and (max-width:600px) { 
+    .main-heading {
+        display: flex;
+        font-size: 8rem;
+        width: 100%;
+        margin: 0;
+        gap: 2%;    
+        margin-bottom: 5%;
+        color: #FABC05;
+    }
+
+    /* FABC05 */
+    .tech-fest {
+        display: flex;
+        flex-direction: column;
+        text-shadow: 8px 6px #EB4237;
+        font-size: 4rem;
+        line-height: 4rem;
+        padding: 0 0;
+        margin: 0;
+    }
+    .tech-fest span {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .tech-fest .tech {
+        padding: 0;
+        margin: 0;
+    }
+    .twenty-four {
+        display: flex;
+        flex-direction: column;
+        font-size: 3.2rem;
+        line-height: 4rem;
+        text-shadow: 4px 3px #FFF3CD;
+        width: max-content;
+        height: max-content;
+        padding: 0 1rem;
+        background: #EB4336;
+    }
+    .minor-heading {
+        font-size: 1.2rem;
+    }
+    .info-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        width: 100%;
+        /* font-size: rem; */
+        /* line-height: 4rem; */
+        color: #FFFBEF;
+        margin-top: 5%;
+    }
+    .date,
+    .venue {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 90%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        background: #EB4336;
+        font-size: 1.5rem;
         box-shadow: 5px 5px #FFF3CD;
         
     }
