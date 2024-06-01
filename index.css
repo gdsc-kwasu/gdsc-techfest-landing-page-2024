@@ -1,0 +1,206 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url(/assets/hero-bg.svg);
+    font-family: "Angkor", serif;
+    font-size: 14px;
+    /* margin: 0; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+} 
+
+
+
+.angkor-regular {
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header {
+    height: 100%;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; */
+    color: #ffffff;
+}
+
+.main-heading {
+    display: flex;
+    font-size: 8rem;
+    width: 100%;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2%;    
+}
+.tech-fest {
+    display: flex;
+    text-shadow: 8px 6px #6ae8fe;
+    /* gap: 0; */
+}
+
+.twenty-four {
+    display: flex;
+    text-shadow: 8px 6px #6ae8fe;
+    /* font-size: rem; */
+    /* font-weight: 400; */
+    /* margin-bottom: -2.5rem; */
+}
+
+
+
+.minor-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    line-height: 1.4em;
+    /* height: fit-content; */
+    font-size: 3em;
+    /* color: #000; */
+    font-family: "Lato", Helvetica, sans-serif;
+    color: #FFFBEF;
+    font-weight: 50;
+    margin-bottom: 3%;
+} 
+
+.info-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    /* height: 100%;  */
+    color: rgb(40, 79, 0);
+
+}
+.date {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    background: #ffffff;
+    font-size: 2rem;
+    box-shadow: 5px 5px #6ae8fe;
+}
+.venue {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+    width: 20%;
+    background: #ffffff;
+    font-size: 2rem;
+    box-shadow: 5px 5px #6ae8fe;
+    
+}
+
+@media screen and (max-width:992px) { 
+    .main-heading {
+        display: flex;
+        font-size: 8rem;
+        width: 100%;
+        margin: 0;
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        /* align-items: flex-end; */
+        gap: 2%;    
+        margin-bottom: 5%;
+        color: #FABC05;
+        
+
+    }
+
+    /* FABC05 */
+    .tech-fest {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start;  */
+        text-shadow: 8px 6px #EB4237;
+        /* justify-content: space-between; */
+        /* align-items: flex-end; */
+        /* height: 100%; */
+        line-height: 8rem;
+        padding: 0 0;
+        margin: 0;
+        /* gap: -10%; */
+    }
+    .tech-fest span {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .tech-fest .tech {
+        padding: 0;
+        margin: 0;
+    }
+    .twenty-four {
+        display: flex;
+        flex-direction: column;
+        text-shadow: 8px 6px #FFF3CD;
+        line-height: 8rem;
+        width: max-content;
+        height: max-content;
+        padding: 1rem;
+        background: #EB4336;
+        /* font-size: rem; */
+        /* font-weight: 400; */
+        /* margin-bottom: -2.5rem; */
+    }
+
+    .info-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        width: 100%;
+        /* height: 100%;  */
+        color: #FFFBEF;
+        margin-top: 5%;
+    }
+    .date,
+    .venue {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        
+        width: 40%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        background: #EB4336;
+        font-size: 2rem;
+        box-shadow: 5px 5px #FFF3CD;
+        
+    }
+    
+}
+
+/* Google Sans, -apple-system, BlinkMacSystemFont, sans-serif; */
