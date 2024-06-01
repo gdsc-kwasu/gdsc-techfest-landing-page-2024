@@ -312,8 +312,8 @@ header {
     }
     
     .logo img{
-        width: 2rem;
-        height: 1rem;
+        width: 3.2rem;
+        height: 1.5rem;
         -webkit-filter: none;
         filter: none;
     }
@@ -330,7 +330,7 @@ header {
         margin-bottom: 0.3rem;
         font-family: "Lato", Helvetica, sans-serif;
         opacity: 100%;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         /* font-weight: 700; */
     } 
     /* FABC05 */
